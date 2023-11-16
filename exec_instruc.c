@@ -25,6 +25,9 @@ void op_fun_search(char *opcode, char *value, int line_number, int format)
 		{"swap", swap_top},
 		{"add", add_top},
 		{"sub", sub_top},
+		{"div", div_top},
+		{"mul", mul_top},
+		{"mod", mod_top},
 		{NULL, NULL}
 	};
 

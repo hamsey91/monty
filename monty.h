@@ -59,6 +59,9 @@ void swap_top(stack_t **, unsigned int);
 void add_top(stack_t **, unsigned int);
 void _nop(stack_t **, unsigned int);
 void sub_top(stack_t **, unsigned int);
+void div_top(stack_t **, unsigned int);
+void mul_top(stack_t **, unsigned int);
+void mod_top(stack_t **, unsigned int);
 void free_node(void);
 
 #endif
