@@ -8,7 +8,6 @@
  */
 void _enqueue(stack_t **n_node, __attribute__((unused))unsigned int l_num)
 {
-	stack_t *head = NULL;
 	stack_t *aux;
 
 	if (n_node == NULL || *n_node == NULL)

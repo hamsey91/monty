@@ -5,7 +5,6 @@
  */
 void free_node(void)
 {
-	stack_t *head = NULL;
 	stack_t *aux;
 
 	if (head == NULL)

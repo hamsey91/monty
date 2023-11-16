@@ -1,5 +1,4 @@
 #include "monty.h"
-
 stack_t *head = NULL;
 
 /**
@@ -13,6 +12,7 @@ stack_t *head = NULL;
 
 int main(int ac, char *av[])
 {
+
 	if (ac != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
@@ -23,3 +23,4 @@ int main(int ac, char *av[])
 	free_node();
 	return (0);
 }
+

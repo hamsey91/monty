@@ -58,6 +58,7 @@ void top_pop(stack_t **, unsigned int);
 void swap_top(stack_t **, unsigned int);
 void add_top(stack_t **, unsigned int);
 void _nop(stack_t **, unsigned int);
+void sub_top(stack_t **, unsigned int);
 void free_node(void);
 
 #endif

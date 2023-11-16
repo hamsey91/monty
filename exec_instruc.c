@@ -24,6 +24,7 @@ void op_fun_search(char *opcode, char *value, int line_number, int format)
 		{"nop", _nop},
 		{"swap", swap_top},
 		{"add", add_top},
+		{"sub", sub_top},
 		{NULL, NULL}
 	};
 
