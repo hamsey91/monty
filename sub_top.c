@@ -14,7 +14,7 @@ void sub_top(stack_t **stack, unsigned int line_number)
 
 	if (stack == NULL || *stack == NULL || (*stack)->next == NULL)
 	{
-		fprintf(stderr, "L%d: can't %s, stack too short\n", line_number, "add");
+		fprintf(stderr, "L%d: can't %s, stack too short\n", line_number, "sub");
 		free_node();
 		exit(EXIT_FAILURE);
 	}
