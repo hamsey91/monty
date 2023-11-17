@@ -28,6 +28,10 @@ void op_fun_search(char *opcode, char *value, int line_number, int format)
 		{"div", div_top},
 		{"mul", mul_top},
 		{"mod", mod_top},
+		{"pchar", p_char},
+		{"pstr", p_str},
+		{"rotl", rot_l},
+		{"rotr", rot_r},
 		{NULL, NULL}
 	};
 

@@ -62,6 +62,10 @@ void sub_top(stack_t **, unsigned int);
 void div_top(stack_t **, unsigned int);
 void mul_top(stack_t **, unsigned int);
 void mod_top(stack_t **, unsigned int);
+void p_char(stack_t **, unsigned int);
+void p_str(stack_t **, unsigned int);
+void rot_l(stack_t **, unsigned int);
+void rot_r(stack_t **, unsigned int);
 void free_node(void);
 
 #endif
